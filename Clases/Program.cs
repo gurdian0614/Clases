@@ -1,5 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+Ave aves = new Ave();
+aves.nombre = "Tucán";
+aves.color = "Negro";
+aves.tamano = "Grande";
+aves.familia = "Ramphastidae";
+aves.sexoBiologico = "Macho";
+
+Console.WriteLine("Nombre: " + aves.nombre);
+Console.WriteLine("Color: " + aves.color);
+Console.WriteLine("Tamaño: " +  aves.tamano);
+Console.WriteLine("Familia: " + aves.familia);
+Console.WriteLine("Sexo Biológico: " + aves.sexoBiologico);
+Console.WriteLine("Es voladora: " + aves.esVoladora);
 
 public class Ave
 {
@@ -15,7 +27,7 @@ public class Ave
      */
     public Ave() {
         esVoladora = true;
-        color = "rojo";
+        color = "Rojo";
     }
 
 }
